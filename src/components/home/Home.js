@@ -7,7 +7,7 @@ const Home = () => {
     {/* MOBILE MOCKUP */}
       <header>
         <nav style={{ background: 'yellow' }}>
-          <menu style={{ 
+          <ul style={{ 
             listStyle: 'none',
             display: 'flex',
             justifyContent: 'space-between',
@@ -15,8 +15,8 @@ const Home = () => {
           }}>
             <li>➕</li>
             <li>🙂</li>
-          </menu>
-          <menu style={{
+          </ul>
+          <ul style={{
             listStyle: 'none',
             display: 'flex',
             justifyContent: 'space-around',
@@ -25,7 +25,7 @@ const Home = () => {
             <li>🏠</li>
             <li>🔍</li>
             <li>🔔</li>
-          </menu>
+          </ul>
         </nav>
       </header>
 
@@ -45,6 +45,7 @@ const Home = () => {
           <article style={{ padding: '.8em' }}>
             <img src='../assets/circle_sm.png' 
               style={{ float: 'left', padding: '.1em .5em 0 0' }}
+              alt="profile-pic"
             />
             <h3 style={{ display: 'inline' }}>Tio</h3>
             <br/>
@@ -55,6 +56,7 @@ const Home = () => {
           <article style={{ padding: '.8em' }}>
             <img src='../assets/circle_sm.png' 
               style={{ float: 'left', padding: '.1em .5em 0 0' }}
+              alt="profile-pic"
             />
             <h3 style={{ display: 'inline' }}>SssSss</h3>
             <br/>
@@ -65,6 +67,7 @@ const Home = () => {
           <article style={{ padding: '.8em' }}>
             <img src='../assets/circle_sm.png' 
               style={{ float: 'left', padding: '.1em .5em 0 0' }}
+              alt="profile-pic"
             />
             <h3 style={{ display: 'inline' }}>Zzzelkj</h3>
             <br/>
@@ -75,6 +78,7 @@ const Home = () => {
           <article style={{ padding: '.8em' }}>
             <img src='../assets/circle_sm.png' 
               style={{ float: 'left', padding: '.1em .5em 0 0' }}
+              alt="profile-pic"
             />
             <h3 style={{ display: 'inline' }}>Ulkj78</h3>
             <br/>

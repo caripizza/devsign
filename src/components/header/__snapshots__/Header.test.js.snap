@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header matches a snapshot 1`] = `
+<header>
+  <nav
+    style={
+      Object {
+        "background": "yellow",
+      }
+    }
+  >
+    <ul
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "space-between",
+          "listStyle": "none",
+          "padding": 0,
+        }
+      }
+    >
+      <li>
+        ➕
+      </li>
+      <li>
+        🙂
+      </li>
+    </ul>
+    <ul
+      style={
+        Object {
+          "display": "flex",
+          "justifyContent": "space-around",
+          "listStyle": "none",
+          "padding": 0,
+        }
+      }
+    >
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          🏠
+        </a>
+      </li>
+      <li>
+        🔍
+      </li>
+      <li>
+        🔔
+      </li>
+    </ul>
+  </nav>
+</header>
+`;

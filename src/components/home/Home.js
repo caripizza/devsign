@@ -5,30 +5,6 @@ const Home = () => {
     < >
 
     {/* MOBILE MOCKUP */}
-      <header>
-        <nav style={{ background: 'yellow' }}>
-          <ul style={{ 
-            listStyle: 'none',
-            display: 'flex',
-            justifyContent: 'space-between',
-            padding: 0
-          }}>
-            <li>➕</li>
-            <li>🙂</li>
-          </ul>
-          <ul style={{
-            listStyle: 'none',
-            display: 'flex',
-            justifyContent: 'space-around',
-            padding: 0
-          }}>
-            <li>🏠</li>
-            <li>🔍</li>
-            <li>🔔</li>
-          </ul>
-        </nav>
-      </header>
-
       <main>
         <section id="all-tweets">
           <article style={{ padding: '.8em' }}>

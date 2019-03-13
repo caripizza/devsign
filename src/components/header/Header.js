@@ -4,9 +4,25 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
     <header>
-      <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
+      <nav style={{ background: 'yellow' }}>
+        <ul style={{ 
+          listStyle: 'none',
+          display: 'flex',
+          justifyContent: 'space-between',
+          padding: 0
+        }}>
+          <li>➕</li>
+          <li>🙂</li>
+        </ul>
+        <ul style={{
+          listStyle: 'none',
+          display: 'flex',
+          justifyContent: 'space-around',
+          padding: 0
+        }}>
+          <li><Link to="/">🏠</Link></li>
+          <li>🔍</li>
+          <li>🔔</li>
         </ul>
       </nav>
     </header>

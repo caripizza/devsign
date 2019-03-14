@@ -5,7 +5,7 @@ const Profile = () => {
   return (
     < >
       <section style={{ width: '49%', float: 'left' }}>
-        <img className={styles.slide} src="../../assets/circle.png" />
+        <img className={styles.slide} src="../../assets/circle.png" alt="profile-pic"/>
         <h2>Handle</h2>
         <p>Curabitur ligula augue, ullamcorper at facilisis in, viverra a nibh. Nulla finibus orci eu odio viverra, ac molestie magna consequat. Sed varius at justo ut imperdiet. Nulla porttitor facilisis nunc suscipit consequat. Aenean nisl tortor, porttitor non hendrerit quis, eleifend vitae augue. Duis dictum sollicitudin fermentum. Morbi ultrices lacus ac interdum consequat. Sed sit amet lacus vel sapien tempus congue feugiat id lectus. Vestibulum nec odio eget turpis ultrices convallis at quis nunc. In eu ipsum a dolor eleifend aliquet vel et lacus. In euismod odio nisi, sed elementum orci volutpat id. Vivamus pretium elit at dui interdum faucibus.</p>
       </section>

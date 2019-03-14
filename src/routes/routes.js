@@ -1,5 +1,6 @@
 import Home from '../containers/home/Home';
 import NewTweetContainer from '../containers/tweets/NewTweetContainer';
+import Profile from '../components/profile/Profile';
 
 export const ROUTES = {
   HOME: {
@@ -11,14 +12,15 @@ export const ROUTES = {
     path: '/new',
     Component: NewTweetContainer,
     linkTo: () => '/new'
+  },
+  PROFILE: {
+    path: '/profile',
+    Component: Profile,
+    linkTo: () => '/profile'
   }
 };
 
 /*
-signin/signup
-home (all tweets)
 search (form with input)
 notifications (ul with lis)
-profile page (image banner)
-new tweet (form with input)
 */

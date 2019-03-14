@@ -12,7 +12,7 @@ const Header = () => {
           padding: 0
         }}>
           <li><Link to="/new">➕</Link></li>
-          <li>🙂</li>
+          <li><Link to="/profile">🙂</Link></li>
         </ul>
         <ul style={{
           listStyle: 'none',

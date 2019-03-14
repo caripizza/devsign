@@ -11,7 +11,7 @@ const Header = () => {
           justifyContent: 'space-between',
           padding: 0
         }}>
-          <li>➕</li>
+          <li><Link to="/new">➕</Link></li>
           <li>🙂</li>
         </ul>
         <ul style={{

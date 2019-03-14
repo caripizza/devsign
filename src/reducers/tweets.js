@@ -1,4 +1,8 @@
-import { FETCH_TWEETS, FETCH_TWEETS_LOADING } from '../actions/tweets';
+import {
+  FETCH_TWEETS,
+  FETCH_TWEETS_LOADING,
+  TWEET_CREATE
+} from '../actions/tweets';
 
 const initialState = {
   tweets: [],
@@ -20,6 +24,10 @@ export default function reducer(
       return {
         ...state,
         loading: true
+      };
+    case TWEET_CREATE:
+      return {
+        tweets: [...state.tweets, payload]
       };
     default:
       return state;

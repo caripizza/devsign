@@ -11,8 +11,9 @@ Array [
     }
   >
     <img
+      alt="profile-pic"
       className="slide"
-      src="../../assets/circle.png"
+      src=""
     />
     <h2>
       Handle

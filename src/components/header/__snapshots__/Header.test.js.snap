@@ -28,7 +28,12 @@ exports[`Header matches a snapshot 1`] = `
         </a>
       </li>
       <li>
-        🙂
+        <a
+          href="/profile"
+          onClick={[Function]}
+        >
+          🙂
+        </a>
       </li>
     </ul>
     <ul

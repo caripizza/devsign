@@ -1,5 +1,6 @@
 const HtmlPlugin = require('html-webpack-plugin');
 const CleanPlugin = require('clean-webpack-plugin');
+const DotEnvPlugin = require('dotenv-webpack');
 
 // eslint-disable-next-line
 module.exports = {
@@ -13,6 +14,7 @@ module.exports = {
     historyApiFallback: true
   },
   plugins: [
+    new DotEnvPlugin(),
     new HtmlPlugin({
       template: './src/index.html',
       favicon: './assets/favicon.ico'

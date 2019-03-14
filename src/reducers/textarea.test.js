@@ -13,9 +13,7 @@ describe('textarea reducer', () => {
     };
     const updatedState = reducer(state, {
       type: UPDATE_TEXTAREA,
-      payload: {
-        text: 'some text'
-      }
+      payload: 'some text'
     });
     expect(updatedState).toEqual({
       _id: null,

@@ -1,6 +1,6 @@
 import {
   FETCH_TWEETS,
-  FETCH_TWEETS_LOADING,
+  FETCH_TWEETS_PENDING,
   TWEET_CREATE
 } from '../actions/tweets';
 
@@ -20,7 +20,7 @@ export default function reducer(
         tweets: payload,
         loading: false
       };
-    case FETCH_TWEETS_LOADING:
+    case FETCH_TWEETS_PENDING:
       return {
         ...state,
         loading: true

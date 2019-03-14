@@ -14,6 +14,7 @@ export default class App extends Component {
             <Route exact component={ROUTES.NEW_TWEET.Component} path={ROUTES.NEW_TWEET.path} />
             <Route exact component={ROUTES.PROFILE.Component} path={ROUTES.PROFILE.path} />
             <Route exact component={ROUTES.SEARCH.Component} path={ROUTES.SEARCH.path} />
+            <Route exact component={ROUTES.NOTIFICATIONS.Component} path={ROUTES.NOTIFICATIONS.path} />
             <Redirect to={ROUTES.HOME.path} />
           </Switch>
         </>

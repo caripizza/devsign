@@ -2,6 +2,7 @@ import Home from '../containers/home/Home';
 import NewTweetContainer from '../containers/tweets/NewTweetContainer';
 import Profile from '../components/profile/Profile';
 import Search from '../components/search/Search';
+import Notifications from '../components/notifications/Notifications';
 
 export const ROUTES = {
   HOME: {
@@ -24,14 +25,9 @@ export const ROUTES = {
     Component: Search,
     linkTo: () => '/search'
   },
-  // NOTIFICATIONS: {
-  //   path: '/notifications',
-  //   Component: Notifications,
-  //   linkTo: () => '/notifications'
-  // }
+  NOTIFICATIONS: {
+    path: '/notifications',
+    Component: Notifications,
+    linkTo: () => '/notifications'
+  }
 };
-
-/*
-search (form with input)
-notifications (ul with lis)
-*/

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Notifications matches a snapshot 1`] = `
+<ul
+  style={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+      "justifyContent": "space-around",
+      "listStyle": "none",
+    }
+  }
+>
+  <li>
+    💛 Curabitur liked your tweet
+  </li>
+  <li>
+    💛 Ullamcorper liked your tweet
+  </li>
+</ul>
+`;

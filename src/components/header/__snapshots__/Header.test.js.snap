@@ -63,7 +63,12 @@ exports[`Header matches a snapshot 1`] = `
         </a>
       </li>
       <li>
-        🔔
+        <a
+          href="/notifications"
+          onClick={[Function]}
+        >
+          🔔
+        </a>
       </li>
     </ul>
   </nav>

@@ -22,7 +22,7 @@ const Header = () => {
         }}>
           <li><Link to="/">🏠</Link></li>
           <li><Link to="/search">🔍</Link></li>
-          <li>🔔</li>
+          <li><Link to="/notifications">🔔</Link></li>
         </ul>
       </nav>
     </header>

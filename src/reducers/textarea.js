@@ -21,10 +21,10 @@ export default function reducer(
       return {
         ...state,
         _id: initialState._id,
-        text: payload,
+        text: payload.text,
         user: {
-          handle: initialState.handle,
-          profileImg: initialState.profileImg
+          handle: initialState.user.handle,
+          profileImg: initialState.user.profileImg
         }
       };
     case TWEET_CREATE:

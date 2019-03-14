@@ -9,7 +9,7 @@ export default function reducer(
   state = initialState,
   { type, payload }
 ) {
-  switch (type) {
+  switch(type) {
     case FETCH_TWEETS:
       return {
         ...state,

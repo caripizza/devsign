@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tweets matches a snapshot 1`] = `
+<section
+  id="all-tweets"
+>
+  <article
+    style={
+      Object {
+        "padding": ".8em",
+      }
+    }
+  >
+    <img
+      alt="profile-pic"
+      src="../../assets/circle_sm.png"
+      style={
+        Object {
+          "float": "left",
+          "padding": ".1em .5em 0 0",
+        }
+      }
+    />
+    <h3
+      style={
+        Object {
+          "display": "inline",
+        }
+      }
+    >
+      Aasdfa
+    </h3>
+    <span
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+    >
+      Lorem ipsum dolor sit amet, uioua adipiscing elit, sed do eiusmod. #asdfasdf #tehklj
+    </span>
+  </article>
+  <article
+    style={
+      Object {
+        "padding": ".8em",
+      }
+    }
+  >
+    <img
+      alt="profile-pic"
+      src="../../assets/circle_sm.png"
+      style={
+        Object {
+          "float": "left",
+          "padding": ".1em .5em 0 0",
+        }
+      }
+    />
+    <h3
+      style={
+        Object {
+          "display": "inline",
+        }
+      }
+    >
+      Tio
+    </h3>
+    <span
+      style={
+        Object {
+          "display": "block",
+        }
+      }
+    >
+      Ut enim ad minim veniam, @jlakdsf quis nostrud #lkjasfd
+    </span>
+  </article>
+</section>
+`;

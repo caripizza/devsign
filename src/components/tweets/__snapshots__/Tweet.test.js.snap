@@ -4,29 +4,16 @@ exports[`Tweet matches a snapshot 1`] = `
 Array [
   <img
     alt="profile-pic"
+    className="img"
     src="../../assets/circle_sm.png"
-    style={
-      Object {
-        "float": "left",
-        "padding": ".1em .5em 0 0",
-      }
-    }
   />,
   <h3
-    style={
-      Object {
-        "display": "inline",
-      }
-    }
+    className="h3"
   >
     Aasdfa
   </h3>,
   <span
-    style={
-      Object {
-        "display": "block",
-      }
-    }
+    className="span"
   >
     Lorem ipsum dolor sit amet, uioua adipiscing elit, sed do eiusmod. #asdfasdf #tehklj
   </span>,

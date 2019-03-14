@@ -1,18 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Tweet.css';
 
 const Tweet = ({ tweet }) => {
   const { text, user } = tweet;
   return (
     < >
       <img src={user.profileImg} 
-        style={{ float: 'left', padding: '.1em .5em 0 0' }}
+        className={styles.img}
         alt="profile-pic"
       />
-      <h3 style={{ display: 'inline' }}>
+      <h3 className={styles.h3}>
         {user.handle}
       </h3>
-      <span style={{ display: 'block' }}>
+      <span className={styles.span}>
         {text}
       </span>
     </>

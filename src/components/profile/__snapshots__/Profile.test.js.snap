@@ -11,6 +11,7 @@ Array [
     }
   >
     <img
+      className="slide"
       src="../../assets/circle.png"
     />
     <h2>

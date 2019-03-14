@@ -9,7 +9,8 @@ const Header = () => {
           listStyle: 'none',
           display: 'flex',
           justifyContent: 'space-between',
-          padding: 0
+          padding: 0,
+          marginTop: 0
         }}>
           <li><Link to="/new">➕</Link></li>
           <li><Link to="/profile">🙂</Link></li>

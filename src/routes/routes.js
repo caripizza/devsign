@@ -1,6 +1,7 @@
 import Home from '../containers/home/Home';
 import NewTweetContainer from '../containers/tweets/NewTweetContainer';
 import Profile from '../components/profile/Profile';
+import Search from '../components/search/Search';
 
 export const ROUTES = {
   HOME: {
@@ -17,7 +18,17 @@ export const ROUTES = {
     path: '/profile',
     Component: Profile,
     linkTo: () => '/profile'
-  }
+  },
+  SEARCH: {
+    path: '/search',
+    Component: Search,
+    linkTo: () => '/search'
+  },
+  // NOTIFICATIONS: {
+  //   path: '/notifications',
+  //   Component: Notifications,
+  //   linkTo: () => '/notifications'
+  // }
 };
 
 /*

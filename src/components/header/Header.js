@@ -21,7 +21,7 @@ const Header = () => {
           padding: 0
         }}>
           <li><Link to="/">🏠</Link></li>
-          <li>🔍</li>
+          <li><Link to="/search">🔍</Link></li>
           <li>🔔</li>
         </ul>
       </nav>

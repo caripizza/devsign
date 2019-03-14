@@ -55,7 +55,12 @@ exports[`Header matches a snapshot 1`] = `
         </a>
       </li>
       <li>
-        🔍
+        <a
+          href="/search"
+          onClick={[Function]}
+        >
+          🔍
+        </a>
       </li>
       <li>
         🔔

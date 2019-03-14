@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Search matches a snapshot 1`] = `
+Array [
+  <label
+    htmlFor="search"
+  >
+    Search Twitter: 
+    <br />
+    <input
+      name="search"
+      placeholder="Search hashtags, users, tweets"
+      style={
+        Object {
+          "width": "23em",
+        }
+      }
+    />
+  </label>,
+  <button>
+    Search
+  </button>,
+]
+`;

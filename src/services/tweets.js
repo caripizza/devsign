@@ -1,7 +1,7 @@
 // import profilePic from '../../assets/circle_sm.png';
 
 export const getTweets = () => {
-  return fetch(`${process.env.API_URL}/tweets`)
+  return fetch(`${process.env.API_URL}` + 'tweets')
     .then(res => res.json());
 
   // return Promise.resolve([

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { logout } from '../../services/auth';
 
 const Header = () => {
   return (
@@ -13,6 +14,7 @@ const Header = () => {
           marginTop: 0
         }}>
           <li><Link to="/new">➕</Link></li>
+          <li><button onClick={logout}>Log out</button></li>
           <li><Link to="/profile">🙂</Link></li>
         </ul>
         <ul style={{

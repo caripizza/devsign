@@ -3,6 +3,8 @@ import { MemoryRouter } from 'react-router-dom';
 import renderer from 'react-test-renderer';
 import Header from './Header';
 
+jest.mock('../../services/auth.js', () => ({}));
+
 describe('Header', () => {
   it('matches a snapshot', () => {
     const component = renderer.create(

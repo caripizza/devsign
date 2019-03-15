@@ -1,6 +1,7 @@
 const HtmlPlugin = require('html-webpack-plugin');
 const CleanPlugin = require('clean-webpack-plugin');
 const DotEnvPlugin = require('dotenv-webpack');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 // eslint-disable-next-line
 module.exports = {
@@ -15,6 +16,9 @@ module.exports = {
   },
   plugins: [
     new DotEnvPlugin({ systemvars: true }),
+    new CopyWebpackPlugin([{
+      from: 'public'
+    }]),
     new HtmlPlugin({
       template: './src/index.html',
       favicon: './assets/favicon.ico'

@@ -14,7 +14,7 @@ module.exports = {
     historyApiFallback: true
   },
   plugins: [
-    new DotEnvPlugin(),
+    new DotEnvPlugin({ systemvars: true }),
     new HtmlPlugin({
       template: './src/index.html',
       favicon: './assets/favicon.ico'

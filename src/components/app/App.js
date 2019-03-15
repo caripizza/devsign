@@ -17,7 +17,7 @@ export default class App extends Component {
             <Route exact component={ROUTES.SEARCH.Component} path={ROUTES.SEARCH.path} />
             <Route exact component={ROUTES.NOTIFICATIONS.Component} path={ROUTES.NOTIFICATIONS.path} />
             <Route exact component={ROUTES.CALLBACK.Component} path={ROUTES.CALLBACK.path} />
-            <Redirect to={ROUTES.HOME.path} />
+            <Redirect to={ROUTES.LANDING.path} />
           </Switch>
         </>
       </Router>

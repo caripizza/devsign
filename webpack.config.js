@@ -23,7 +23,7 @@ module.exports = {
       template: './src/index.html',
       favicon: './assets/favicon.ico'
     }),
-    new CleanPlugin('./dist')
+    new CleanPlugin()
   ],
   module: {
     rules: [
